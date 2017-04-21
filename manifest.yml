@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: StudentRecord2SD14CS033d
+  host: StudentRecord2SD14CS033d
+  disk_quota: 1024M
+  services:
+  - ClearDB-2SD14CS033d
